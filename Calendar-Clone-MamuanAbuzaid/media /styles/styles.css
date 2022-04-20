@@ -1,0 +1,34 @@
+.flexbox {
+margin-left: 10%;
+
+}
+.flexelement5 {
+ display:flex;
+ 
+}
+ 
+ .flexbox {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows:  2fr 1fr;
+    
+
+}
+
+tr{
+    text-align: center;
+}
+
+table{ 
+   
+
+}
+th {
+border-bottom: 10px;
+}
+ 
+table, tr, td{
+    border-collapse: collapse;
+    border: 3px solid rgb(231, 148, 231);
+}
+

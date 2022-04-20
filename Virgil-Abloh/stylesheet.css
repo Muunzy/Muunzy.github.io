@@ -1,0 +1,105 @@
+html,body {
+    height: 100%;
+    margin:0;
+}
+.intro {
+    display: flex;
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 750px;
+    padding-bottom: 18vw;
+    background-position: center 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns:80% 20%;
+}
+.headerwrapper {
+    background: url(background.jpg);
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 700px) {
+
+    
+    
+.collumn1 {
+    flex: 100%;
+    padding: 20px;
+}
+.collumn2 {
+    flex: 100%;
+    padding: 20px;
+
+}.collumn3 {
+    flex: 100%;
+    padding: 20px;
+
+}
+
+}
+.bio {  
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  
+}
+.essaytexte{
+    display: flex;
+    justify-content: flex-start;
+    min-width: 75%;
+    align-items: left;
+    
+
+}
+.collumn1 {
+    flex: 33%;
+    margin: 20px;
+}
+.collumn2 {
+    flex: 33%;
+    margin: 20px;
+
+}.collumn3 {
+    flex: 33%;
+    margin: 20px;
+
+}
+.weather{
+ display: flex;
+ flex-direction: column;
+ box-sizing: inherit;
+ flex: 50%;
+ align-items: flex-start;
+padding-left: 150px;
+}
+
+.grid-container{
+display: grid;
+grid-template-rows: 50% 50%;
+grid-template-columns: 50% 50%;
+color: #fff;
+background: #2d2d2d;
+justify-content: center;
+align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
