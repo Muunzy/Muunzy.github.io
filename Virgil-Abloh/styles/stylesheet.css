@@ -1,0 +1,188 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    background-image: url(../media/background.jpg);
+    background-size: cover;
+    height: 750px;
+    padding-bottom: 18vw;
+    background-position: center 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.headerwrapper {
+    background: url(../media/background.jpg);
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+
+    .collumn1 {
+        flex: 100%;
+        padding: 20px;
+    }
+
+    .collumn2 {
+        flex: 100%;
+        padding: 20px;
+
+    }
+
+    .collumn3 {
+        flex: 100%;
+        padding: 20px;
+
+    }
+
+}
+
+.bio {
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+}
+
+.essaytexte {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 75%;
+    align-items: left;
+
+
+}
+
+.collumn1 {
+    flex: 33%;
+    margin: 20px;
+}
+
+.collumn2 {
+    flex: 33%;
+    margin: 20px;
+
+}
+
+.collumn3 {
+    flex: 33%;
+    margin: 20px;
+
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+    flex: 50%;
+    align-items: flex-start;
+    padding-left: 150px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    color: #fff;
+    background: #2d2d2d;
+    justify-content: center;
+    align-self: center;
+    /* warum bekomme ich den content nicht zentriert
+
+text align center
+
+grid auf vaterelemnt row anwenden
+
+
+
+*/
+}
+
+.window {
+    width: 15%;
+
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    z-index: 100;
+    border-style: solid;
+    border-color: gainsboro;
+    box-shadow: 1px 1px 0px 0px rgb(63, 62, 62);
+
+}
+
+button {
+    cursor: pointer;
+
+}
+
+.toolbar {
+
+    display: flex;
+    width: 100%;
+    background: rgb(51, 79, 165);
+    background: linear-gradient(90deg, rgba(51, 79, 165, 1) 0%, rgba(66, 109, 182, 1) 50%, rgba(74, 126, 191, 1) 100%);
+    color: whitesmoke;
+    padding: 5px;
+    justify-content: space-between;
+
+}
+
+#img1 {
+    background-color: blue;
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.toolbutton {
+
+    border-radius: 0;
+    width: 1.5em;
+    height: 1.5em;
+
+}
+
+.minimize {
+    background-image: url(./../media/minimize.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.maximize {
+    background-image: url(./../media/maximize.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.close {
+    background-image: url(./../media/close.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.buttonbar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#spinning-logo {
+
+    width: 100%;
+    mix-blend-mode: multiply;
+
+
+
+}
