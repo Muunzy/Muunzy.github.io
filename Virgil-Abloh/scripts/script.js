@@ -1,6 +1,8 @@
 let span = document.getElementById("span");
 let fenster1 = document.getElementById("fenster1");
 let button1 = document.getElementById("button1");
+let fenster2 = document.getElementById("fenster2");
+let button2 = document.getElementById("button2");
 
 
 function time() {
@@ -14,8 +16,10 @@ function time() {
 
 setInterval(time, 1000);
 
-button1.addEventListener("click", function (e) {
+button1.addEventListener('click', () => {
     fenster1.style.display = "none";
-    console.log("fehler");
+});
 
+button2.addEventListener('click', () => {
+    fenster2.style.display = "none";
 });
