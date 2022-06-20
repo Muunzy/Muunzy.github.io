@@ -3,6 +3,10 @@ let fenster1 = document.getElementById("fenster1");
 let button1 = document.getElementById("button1");
 let fenster2 = document.getElementById("fenster2");
 let button2 = document.getElementById("button2");
+let fenster3 = document.getElementById("fenster3");
+let button3 = document.getElementById("button3");
+let fenster4 = document.getElementById("fenster4");
+let button4 = document.getElementById("button4");
 
 
 function time() {
@@ -22,4 +26,10 @@ button1.addEventListener('click', () => {
 
 button2.addEventListener('click', () => {
     fenster2.style.display = "none";
+});
+button3.addEventListener('click', () => {
+    fenster3.style.display = "none";
+});
+button4.addEventListener('click', () => {
+    fenster4.style.display = "none";
 });
