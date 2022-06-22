@@ -307,6 +307,14 @@ button {
     justify-content: left;
     align-items: right;
 
+
+}
+
+#kaufenbutton {
+    background-color: #e8e8e8;
+
+
+
 }
 
 #kaufenbutton:hover {
